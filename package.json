@@ -4,6 +4,7 @@
   "repository": "ssh://git@github.com/kobakazu0429/elo-rating.git",
   "author": "kobakazu0429 <kobakazu10@gmail.com>",
   "license": "MIT",
+  "private": false,
   "type": "module",
   "source": "src/index.ts",
   "exports": "./dist/index.modern.js",
