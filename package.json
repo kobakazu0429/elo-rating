@@ -12,10 +12,15 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest --silent=false --verbose false"
+    "test": "jest --silent=false --verbose false",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
