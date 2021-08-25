@@ -1,0 +1,26 @@
+{
+  "name": "@kobakazu0429/elo-rating",
+  "version": "0.0.1",
+  "repository": "ssh://git@github.com/kobakazu0429/elo-rating.git",
+  "author": "kobakazu0429 <kobakazu10@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": "./dist/index.modern.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest --silent=false --verbose false"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "microbundle": "^0.13.3",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  }
+}
