@@ -1,6 +1,6 @@
 {
   "name": "@kobakazu0429/elo-rating",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "ssh://git@github.com/kobakazu0429/elo-rating.git",
   "author": "kobakazu0429 <kobakazu10@gmail.com>",
   "license": "MIT",
