@@ -23,7 +23,7 @@
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "@types/jest": "28.1.1",
+    "@types/jest": "28.1.2",
     "jest": "28.1.1",
     "microbundle": "0.15.0",
     "ts-jest": "28.0.5",
