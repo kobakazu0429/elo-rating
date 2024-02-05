@@ -19,10 +19,12 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
+    "test": "vitest --globals",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "microbundle": "0.15.1",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "vitest": "^1.2.2"
   }
 }
